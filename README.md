@@ -4,6 +4,8 @@ http://exchange.ronen.io
 
 The exchange was intended to be a bitcoin futures exchange, which simply put, allows bitcoin holders to place speculative bets on the  price of bitcoin by trading what's known as a swap contract.
 
+![](http://ronen.io/exchange.PNG)
+
 ## Features
 The backend features an order matching engine, located in the place.php file located in the order folder.
 The matching engine enables customer orders (limit and market) to execute against eachother (as if this were a stock exchange), in a strict price-time priority.
