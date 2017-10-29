@@ -1,6 +1,8 @@
 # Exchange
-This is the backened for a prototype bitcoin futures exchange I made. The exchange and backend were never completed, but the sample front-end can be found at:
+This is the backend for a prototype bitcoin futures exchange I made. The exchange and backend were never completed, but the sample front-end can be found at:
 http://exchange.ronen.io
+
+The exchange was intended to be a bitcoin futures exchange, which simply put, allows bitcoin holders to place speculative bets on the  price of bitcoin by trading what's known as a swap contract.
 
 ## Features
 The backend features an order matching engine, located in the place.php file located in the order folder.
