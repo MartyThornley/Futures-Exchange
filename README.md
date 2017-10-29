@@ -32,7 +32,7 @@ $database = "Put your own password here";
 to whatever your MYSQL password, username, database, and host are.
 3. Have fun trading (most likely with yourself)!
 
-I wish I finished this project, but half way through I realized I wouldn't've been able to write all the code myself.
+While I wish I finished this project, I realized I wouldn't've been able to write all the code myself.
 Apparatus' to control actual deposits and withdrawals of funds still haven't been written, and the matching engine is incredibly slow (since it's written in PHP) and can process a maximum of 1000 trades/cancellations a second, which would be insufficient for an actual exchange.
 
 Written from scratch by Ronen Singer.
