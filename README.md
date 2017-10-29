@@ -7,7 +7,10 @@ The exchange was intended to be a bitcoin futures exchange, which simply put, al
 ![](http://ronen.io/exchange.PNG)
 
 ## Features
-The backend features an order matching engine, located in the place.php file located in the order folder.
+The backend features an order matching engine, located in the 
+```place.php
+```
+file located in the order folder.
 The matching engine enables customer orders (limit and market) to execute against eachother (as if this were a stock exchange), in a strict price-time priority.
 
 It features an innovative maker-taker fee model, so those who provide liquidity through limit orders, makers, are actually paid a rebate, rather than a fee.
@@ -20,7 +23,11 @@ Lastly, passwords are hashed using sha256, to improve security, even though I'm 
 
 ## Getting Started
 1. Create a MYSQL database
-2. Run the (massive) main.sql file located in the sql folder to generated tables to control administrative settings and user balances/trades/orders.
+2. Run the (massive) 
+```
+main.sql
+```
+file located in the sql folder to generated tables to control administrative settings and user balances/trades/orders.
 
 If you're interested in using the matching engine for yourself, just edit the configuration.php file in each folder and change
 ```
