@@ -1,6 +1,6 @@
 # Exchange
 This is the backend for a prototype bitcoin futures exchange I made. The exchange and backend were never completed, but the sample front-end can be found at:
-http://exchange.ronen.io
+http://exchange.ronen.io/trade
 
 The exchange was intended to be a bitcoin futures exchange, which simply put, allows bitcoin holders to place speculative bets on the  price of bitcoin by trading what's known as a swap contract.
 
