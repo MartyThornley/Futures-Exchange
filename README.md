@@ -7,8 +7,13 @@ The exchange was intended to be a bitcoin futures exchange, which simply put, al
 ## Features
 The backend features an order matching engine, located in the place.php file located in the order folder.
 The matching engine enables customer orders (limit and market) to execute against eachother (as if this were a stock exchange), in a strict price-time priority.
+
 It features an innovative maker-taker fee model, so those who provide liquidity through limit orders, makers, are actually paid a rebate, rather than a fee.
+
 It also features a fully operational API for users to place and cancel orders, liquidate positions, recieve market prices and trade data, as well tools for administrators to credit or even lock accounts.
+
+There is also a sample server side websocket client to broadcast live trades. I never learned how to actual create an API nor a websocket system, so the sample is msot likely incredibly inefficient.
+
 Lastly, passwords are hashed using sha256, to improve security, even though I'm sure a vulnerability exists somewhere.
 
 ## Getting Started
